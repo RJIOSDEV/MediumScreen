@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="188" id="KGk-i7-Jjw" customClass="TableViewCell1" customModule="MediumScreen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="188"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="188"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="choose payment option" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdT-MS-gGH">
+                        <rect key="frame" x="20" y="5" width="179" height="60"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle.fill" translatesAutoresizingMaskIntoConstraints="NO" id="Fxx-1a-o4s">
+                        <rect key="frame" x="80" y="85" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="V0Q-Mp-w6G"/>
+                            <constraint firstAttribute="height" constant="50" id="VPc-Jd-8fL"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle.fill" translatesAutoresizingMaskIntoConstraints="NO" id="sG9-Ek-hBu">
+                        <rect key="frame" x="210" y="46" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="AKO-ga-zAA"/>
+                            <constraint firstAttribute="height" constant="50" id="c5z-sT-Nmk"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="cash on delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixl-4v-IKw">
+                        <rect key="frame" x="50" y="150" width="105" height="17"/>
+                        <color key="tintColor" systemColor="systemGreenColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" systemColor="systemGreenColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="online payment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hX-37-9D9">
+                        <rect key="frame" x="180" y="111" width="98.5" height="17"/>
+                        <color key="tintColor" systemColor="systemGreenColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" systemColor="systemGreenColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sG9-Ek-hBu" firstAttribute="leading" secondItem="Fxx-1a-o4s" secondAttribute="trailing" constant="80" id="3px-ko-kQx"/>
+                    <constraint firstItem="sG9-Ek-hBu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="46" id="RMf-xm-f4O"/>
+                    <constraint firstItem="zdT-MS-gGH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="XRD-4f-gfe"/>
+                    <constraint firstItem="Fxx-1a-o4s" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="80" id="Zg5-C9-2Y8"/>
+                    <constraint firstItem="Fxx-1a-o4s" firstAttribute="top" secondItem="zdT-MS-gGH" secondAttribute="bottom" constant="20" id="bp7-rI-m27"/>
+                    <constraint firstItem="ixl-4v-IKw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="34" id="cAV-Im-In5"/>
+                    <constraint firstItem="9hX-37-9D9" firstAttribute="top" secondItem="sG9-Ek-hBu" secondAttribute="bottom" constant="15" id="kbT-B4-GLM"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ixl-4v-IKw" secondAttribute="bottom" constant="10" id="ncI-6o-QeJ"/>
+                    <constraint firstItem="ixl-4v-IKw" firstAttribute="top" secondItem="Fxx-1a-o4s" secondAttribute="bottom" constant="15" id="rH0-DH-SaS"/>
+                    <constraint firstItem="zdT-MS-gGH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="umf-y0-sZZ"/>
+                    <constraint firstItem="9hX-37-9D9" firstAttribute="leading" secondItem="ixl-4v-IKw" secondAttribute="trailing" constant="25" id="z68-oY-1Cv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="img1" destination="sG9-Ek-hBu" id="o27-QM-1nz"/>
+                <outlet property="img2" destination="Fxx-1a-o4s" id="A0C-zq-une"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="135.9375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="circle.fill" width="24" height="24"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

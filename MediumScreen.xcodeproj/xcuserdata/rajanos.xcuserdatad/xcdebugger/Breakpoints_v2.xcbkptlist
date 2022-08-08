@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AF641814-80F1-4B2A-BC80-97013FB48132"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E10457BC-EEA4-4B08-AD24-CB216621EB35"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediumScreen/Screen3/CollectionViewCellpost.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "nib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "594DB33F-55E5-4335-ABE8-08775DA92F5F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediumScreen/screen4/ViewControllerScreen3.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewControllerScreen3"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "594DB33F-55E5-4335-ABE8-08775DA92F5F - 93cff568a8817241"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediumScreen.ViewControllerScreen3.logo.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "MediumScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rajanos/Desktop/MediumScreen/MediumScreen/screen4/ViewControllerScreen3.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "594DB33F-55E5-4335-ABE8-08775DA92F5F - 92ae45ed0fdb065d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediumScreen.ViewControllerScreen3.logo.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "MediumScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rajanos/Desktop/MediumScreen/MediumScreen/screen4/ViewControllerScreen3.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "594DB33F-55E5-4335-ABE8-08775DA92F5F - af788bd354d9ddf2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediumScreen.ViewControllerScreen3.logo.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "MediumScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rajanos/Desktop/MediumScreen/MediumScreen/screen4/ViewControllerScreen3.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "594DB33F-55E5-4335-ABE8-08775DA92F5F - 9a1f3559b55f1936"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediumScreen.ViewControllerScreen3.logo.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MediumScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rajanos/Desktop/MediumScreen/MediumScreen/screen4/ViewControllerScreen3.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "594DB33F-55E5-4335-ABE8-08775DA92F5F - 2167d781a260ddb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediumScreen.ViewControllerScreen3.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MediumScreen.ViewControllerScreen3"
+                  moduleName = "MediumScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rajanos/Desktop/MediumScreen/MediumScreen/screen4/ViewControllerScreen3.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "234">
+               </Location>
+               <Location
+                  uuid = "594DB33F-55E5-4335-ABE8-08775DA92F5F - 2907843f8443fe48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediumScreen.ViewControllerScreen3.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MediumScreen.ViewControllerScreen3&gt;"
+                  moduleName = "MediumScreen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rajanos/Desktop/MediumScreen/MediumScreen/screen4/ViewControllerScreen3.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "191">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "805D5AE8-9370-4008-8CB9-1A772E1C0B78"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediumScreen/screen4/ViewControllerScreen3.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82AA062D-5772-4167-8F08-7CA21F5EB643"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediumScreen/screen4/ViewControllerScreen3.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionViewCell4" customModule="MediumScreen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="189"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="189"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="commitment setting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIo-ux-CSH">
+                        <rect key="frame" x="0.0" y="10" width="374" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mok-ca-EjF">
+                        <rect key="frame" x="20" y="50.5" width="334" height="31"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="protact commitments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNS-6f-14A">
+                                <rect key="frame" x="0.0" y="0.0" width="285" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2s4-l8-uUh">
+                                <rect key="frame" x="285" y="0.0" width="51" height="31"/>
+                            </switch>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o60-8V-fzU">
+                        <rect key="frame" x="20" y="91.5" width="334" height="31"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="enable reminders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Gx-qO-wuq">
+                                <rect key="frame" x="0.0" y="0.0" width="285" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3WS-Dh-wAo">
+                                <rect key="frame" x="285" y="0.0" width="51" height="31"/>
+                            </switch>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="psA-ao-NMp">
+                        <rect key="frame" x="20" y="132.5" width="334" height="31"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="enable notification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1x-ab-PHd">
+                                <rect key="frame" x="0.0" y="0.0" width="285" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CPG-Dr-umy">
+                                <rect key="frame" x="285" y="0.0" width="51" height="31"/>
+                            </switch>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="qIo-ux-CSH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="2fB-FT-1fl"/>
+                <constraint firstAttribute="trailing" secondItem="qIo-ux-CSH" secondAttribute="trailing" id="BpL-Ip-Mfn"/>
+                <constraint firstItem="Mok-ca-EjF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="Jp6-i0-hrl"/>
+                <constraint firstItem="o60-8V-fzU" firstAttribute="top" secondItem="Mok-ca-EjF" secondAttribute="bottom" constant="10" id="ab6-9H-4oD"/>
+                <constraint firstItem="qIo-ux-CSH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cDv-KG-aya"/>
+                <constraint firstAttribute="trailing" secondItem="o60-8V-fzU" secondAttribute="trailing" constant="20" id="coZ-sT-xoC"/>
+                <constraint firstAttribute="trailing" secondItem="psA-ao-NMp" secondAttribute="trailing" constant="20" id="diQ-k2-al0"/>
+                <constraint firstAttribute="trailing" secondItem="Mok-ca-EjF" secondAttribute="trailing" constant="20" id="j8l-kB-73h"/>
+                <constraint firstItem="Mok-ca-EjF" firstAttribute="top" secondItem="qIo-ux-CSH" secondAttribute="bottom" constant="20" id="mTn-5W-tAW"/>
+                <constraint firstItem="o60-8V-fzU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="mUi-Ur-xCe"/>
+                <constraint firstItem="psA-ao-NMp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="pfW-6Y-DAt"/>
+                <constraint firstItem="psA-ao-NMp" firstAttribute="top" secondItem="o60-8V-fzU" secondAttribute="bottom" constant="10" id="rRC-6J-GeY"/>
+            </constraints>
+            <size key="customSize" width="374" height="189"/>
+            <point key="canvasLocation" x="372.46376811594206" y="160.37946428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>
